@@ -301,7 +301,23 @@ body {
   margin-top: 7rem;
 }
 
-.pt-5 .container .row .section-head p {
+/* Pricing  */
+.pricing-top {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(../images/image.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+}
+
+.container .row .section-head p {
   font-size: 2rem;
   color: #333;
   padding: 1rem 0;
@@ -392,6 +408,7 @@ body {
   color: #2f2f2f;
 }
 
+/* Counter  */
 .counters {
   background-image: url(../images/img2.jpg);
   background-size: cover;
@@ -416,18 +433,6 @@ body {
 .counters .counter {
   font-size: 45px;
   margin: 10px 0;
-}
-
-@media (max-width: 700px) {
-  .counters .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .counters .container > div:nth-of-type(1),
-  .counters .container > div:nth-of-type(2) {
-    border-bottom: 1px lightskyblue solid;
-    padding-bottom: 20px;
-  }
 }
 
 .section-head-1 {
@@ -608,10 +613,10 @@ body {
 }
 
 /* Gallery  */
-.clients-top {
+.gallery-top {
   min-height: 100vh;
   width: 100vw;
-  /* background-image: url(../images/image.png); */
+  background-image: url(../images/image.png);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -789,6 +794,21 @@ body {
   left: -4rem;
 }
 
+/* Contact  */
+.contact-top {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(../images/image.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+  overflow: hidden !important;
+}
 .contact {
   text-align: center;
   align-items: center;
@@ -833,13 +853,14 @@ body {
   box-shadow: 0px 0px 10px 0px #666;
 }
 
-.contact-map {
-  width: 100%;
-}
-
 .contact-details {
   font-size: 20px;
   width: 100vw;
+}
+
+.contact-details h1 {
+  font-weight: bolder;
+  font-size: 25px;
 }
 .contact-details .fab {
   font-size: 30px;
@@ -994,18 +1015,19 @@ body {
     font-size: 50%;
   }
 
+  /* Header  */
   .header .logo img {
     display: none;
   }
 
   .header .fa-bars {
     display: block;
-    color: white;
+    color: black;
     margin-right: 1rem;
   }
 
   .header .fa-bars:hover {
-    color: #00bfff;
+    color: black;
   }
 
   .header .navbar {
@@ -1042,6 +1064,7 @@ body {
     top: 5.8rem;
   }
 
+  /* Home  */
   .home {
     background-size: cover;
     width: 100%;
@@ -1065,6 +1088,20 @@ body {
     font-size: 2rem;
   }
 
+  /* About  */
+  .about-top {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
+  }
   .about {
     min-height: 38vh;
     width: 100vw;
@@ -1100,6 +1137,36 @@ body {
     padding: 1rem 0;
   }
 
+  /* Service  */
+  .service-top {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
+  }
+
+  /* Gallery  */
+  .gallery-top {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
+  }
+
   .clients {
     position: relative;
     padding: 90px 0;
@@ -1123,9 +1190,53 @@ body {
     flex-direction: column;
   }
 
+  /* Pricing  */
+  .pricing-top {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
+  }
+
+  /* Contact  */
+  .contact-top {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
+  }
+
   .contact {
     text-align: center;
     align-items: center;
+  }
+  .contact .social-links a {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #ffffff;
+    color: #00bfff;
+    line-height: 1;
+    gap: 10px;
+    padding: 12px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
   }
 
   .contact .heading {
@@ -1267,7 +1378,10 @@ body {
   }
 
   .footer .copyright {
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
   }
 }
 
@@ -1309,13 +1423,12 @@ body {
 }
 
 .faq .row .accordion-container {
-  width: 50%;
+  width: 80%;
   text-align: left;
 }
 
 .faq .row .accordion {
-  margin-left: 1rem;
-  margin-right: 2rem;
+  margin: 0;
 }
 
 .faq .row .accordion-container .accordion .accordion-header {
@@ -1361,5 +1474,17 @@ body {
 @media (max-width: 1200px) {
   .faq {
     min-height: 70vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .counters .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .counters .container > div:nth-of-type(1),
+  .counters .container > div:nth-of-type(2) {
+    border-bottom: 1px lightskyblue solid;
+    padding-bottom: 20px;
   }
 }
