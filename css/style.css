@@ -8,7 +8,6 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
   text-decoration: none;
-  border: 1px solid;
 }
 
 html {
@@ -77,16 +76,18 @@ body {
 }
 
 .row .btn {
+  margin-top: 50px;
+  position: relative;
   outline: none;
   border: none;
   border-radius: 5rem;
   background: white;
   border-style: groove;
   border-color: #002e5f;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   cursor: pointer;
-  height: 3.5rem;
-  width: 15rem;
+  height: 5 rem;
+  width: 30rem;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
@@ -188,12 +189,20 @@ body {
 
 .home h1 {
   color: #000;
-  font-size: 5.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  white-space: wrap;
+  text-transform: uppercase;
+  max-width: 70%;
+  overflow-x: visible;
+  margin-top: 300px;
 }
 
 .home h2 {
   color: #000;
-  font-size: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .home .wave {
@@ -259,7 +268,7 @@ body {
 .about .row {
   line-height: 4rem;
   display: flex;
-  align-items: center;
+  align-items: f;
   justify-content: space-around;
   padding: 0 4rem;
 }
@@ -274,9 +283,16 @@ body {
 }
 
 .about .row .content p {
-  font-size: 2rem;
+  width: 100%;
+  height: auto;
+  font-size: 2.5rem;
+  text-align: justify;
+  white-space: wrap;
   color: #333;
   padding: 1rem 0;
+  max-width: 80%;
+  overflow-x: visible;
+  margin-left: 180px;
 }
 
 /* Services */
@@ -367,13 +383,17 @@ body {
   transition: all 0.5s ease 0s;
 }
 .item .icon {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 25px;
   color: yellow;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   line-height: 96px;
   border-radius: 50px;
+}
+
+.item .icon i {
+  font-size: 50px;
 }
 .item .feature_box_col_one {
   background: rgba(247, 198, 5, 0.2);
@@ -646,9 +666,9 @@ body {
 
 .clients img {
   max-width: 100%;
+  height: 250px;
   opacity: 1;
   transition: 0.3s;
-  padding: 15px 0;
 }
 
 .clients img:hover {
@@ -855,11 +875,12 @@ body {
 
 .contact-details {
   font-size: 20px;
-  width: 100vw;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
 }
 
 .contact-details h1 {
-  font-weight: bolder;
   font-size: 25px;
 }
 .contact-details .fab {
