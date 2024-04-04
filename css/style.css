@@ -27,7 +27,7 @@ body {
   padding-top: 6rem;
   display: inline-block;
   font-size: 3.5rem;
-  color: #002e5f;
+  color: #f58634;
   position: relative;
   letter-spacing: 0.2rem;
 }
@@ -46,8 +46,8 @@ body {
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
-  border-top: 0.4rem solid #002e5f;
-  border-left: 0.4rem solid #002e5f;
+  border-top: 0.4rem solid #f58634;
+  border-left: 0.4rem solid #f58634;
 }
 
 .faq .heading::before,
@@ -83,7 +83,7 @@ body {
   border-radius: 5rem;
   background: white;
   border-style: groove;
-  border-color: #002e5f;
+  border-color: #f58634;
   font-size: 2.5rem;
   cursor: pointer;
   height: 5 rem;
@@ -97,11 +97,11 @@ body {
   border-radius: 5rem;
   background: white;
   border-style: groove;
-  border-color: #002e5f;
+  border-color: #f58634;
   font-size: 1.5rem;
   cursor: pointer;
   height: 3.5rem;
-  width: 15rem;
+  width: 25rem;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
@@ -188,8 +188,8 @@ body {
 }
 
 .home h1 {
-  color: #002e5f;
-  font-size: 6rem;
+  color: #f58634;
+  font-size: 5rem;
   font-weight: 900;
   white-space: wrap;
   text-transform: uppercase;
@@ -202,8 +202,8 @@ body {
 }
 
 .home h2 {
-  color: #002e5f;
-  font-size: 5rem;
+  color: #f58634;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: 900;
   position: relative;
@@ -306,7 +306,7 @@ body {
 .service-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/image.png);
+  background-image: url(../images/hero4.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -327,7 +327,7 @@ body {
 .pricing-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/image.png);
+  background-image: url(../images/hero6.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -555,7 +555,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
+  color: #000;
   min-height: 35vh;
   padding: 40px 20px;
 }
@@ -642,7 +642,7 @@ body {
 .gallery-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/image.png);
+  background-image: url(../images/hero5.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -824,7 +824,7 @@ body {
 .contact-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/image.png);
+  background-image: url(../images/hero7.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -1219,9 +1219,9 @@ body {
 
   /* Pricing  */
   .pricing-top {
+    min-height: 100vh;
+    width: 100vw;
     background-size: cover;
-    width: 100%;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1351,7 +1351,7 @@ body {
     border-radius: 5rem;
     background: white;
     border-style: groove;
-    border-color: #002e5f;
+    border-color: #f58634;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -1362,7 +1362,7 @@ body {
     letter-spacing: 0.1rem;
     opacity: 0.9;
     color: white;
-    background: #002e5f;
+    background: #f58634;
   }
   .contact-form-phone {
     margin-left: 2rem;
