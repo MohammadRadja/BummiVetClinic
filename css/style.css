@@ -109,14 +109,14 @@ body {
   letter-spacing: 0.1rem;
   opacity: 0.9;
   color: white;
-  background: #002e5f;
+  background: #facb2b;
 }
 
 .communicate .btn:hover {
   letter-spacing: 0.1rem;
   opacity: 0.9;
   color: white;
-  background: #00bfff;
+  background: #facb2b;
 }
 
 .header {
@@ -189,20 +189,26 @@ body {
 
 .home h1 {
   color: #002e5f;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 6rem;
+  font-weight: 900;
   white-space: wrap;
   text-transform: uppercase;
   max-width: 70%;
   overflow-x: visible;
   margin-top: 300px;
+  position: relative;
+  text-shadow: -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff,
+    1px 1px 1px #fff; /* Efek border menggunakan text-shadow */
 }
 
 .home h2 {
   color: #002e5f;
-  font-size: 2.8rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 900;
+  position: relative;
+  text-shadow: -1px -1px 1px #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff; /* Efek border menggunakan text-shadow */
 }
 
 .home .wave {
