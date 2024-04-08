@@ -171,7 +171,7 @@ body {
 .home {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/hero.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -213,7 +213,7 @@ body {
   left: 0;
   height: 6rem;
   width: 100%;
-  background: url(../images/wave.png);
+  background: url(../images/wave.webp);
   background-size: 100rem 2.5rem;
   animation: waves 8s linear infinite;
   background-repeat: repeat-x;
@@ -244,7 +244,7 @@ body {
 .about-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/hero2.jpg);
+  background-image: url(../images/hero2.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -279,7 +279,7 @@ body {
   text-align: center;
 }
 
-.about .row .content h3 {
+.about .row .content h2 {
   font-size: 3rem;
   color: black;
 }
@@ -297,7 +297,7 @@ body {
 
 /* Counter  */
 .counters {
-  background-image: url(../images/counters.jpg);
+  background-image: url(../images/counters.webp);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -329,7 +329,7 @@ body {
 .service-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/hero4.jpg);
+  background-image: url(../images/hero4.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -350,7 +350,7 @@ body {
 .pricing-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/hero6.jpg);
+  background-image: url(../images/hero6.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -402,10 +402,10 @@ body {
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
-.item h6 {
+.item h3 {
   font-size: 2rem;
 }
-.item:hover h6,
+.item:hover h3,
 .item:hover p {
   color: #fff;
   -webkit-transition: all 0.5s ease 0s;
@@ -452,7 +452,7 @@ body {
   font-size: 15px;
   line-height: 26px;
 }
-.item h6 {
+.item h3 {
   margin-bottom: 20px;
   color: #2f2f2f;
 }
@@ -495,7 +495,7 @@ body {
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
-.item:hover h6,
+.item:hover h3,
 .item:hover p {
   color: #fff;
   -webkit-transition: all 0.5s ease 0s;
@@ -539,7 +539,7 @@ body {
   font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 26px;
 }
-.item h6 {
+.item h3 {
   margin-bottom: 20px;
   font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #2f2f2f;
@@ -548,7 +548,7 @@ body {
 .communicate {
   text-align: center;
   align-items: center;
-  background-image: url(../images/img3.jpg);
+  background-image: url(../images/img3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -639,7 +639,7 @@ body {
 .gallery-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/hero5.jpg);
+  background-image: url(../images/hero5.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -821,7 +821,7 @@ body {
 .contact-top {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/hero7.jpg);
+  background-image: url(../images/hero7.webp);
   background-size: cover;
   display: flex;
   align-items: center;
